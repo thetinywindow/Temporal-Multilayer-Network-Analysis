@@ -1,2 +1,4 @@
 # Temporal-Multilayer-Network-Analysis
 TEMPORAL MULTI-LAYER NETWORK  APPROACH TOWARDS CO-AUTHORSHIP - A NETWORK ANALYSIS APPROACH FOR DEMONSTRATION ENVI-RONMENTS
+
+The jupyter-notebook files labeled w/ 'SUPPORT_' indicate files that are mostly required in the pre network analysis phase. Hence, the only files required to actually generate the edgefiles needed (e.g., for MuxViz or Gephi) are labeled w/ 'NETWORK_'. Please note that the file 'combined_WoS' contains the scrapped data from Web of Sciecne and is therefore crucial to the analysis. Please also note that the network notebooks save file in there home directory, which in my case was faculty.ai; depending on the system you run this might need to changed. All outputs of the network-notebook are required to generate the multilayer network file which is done in the 'SUPPORT-MuxViz'-file. Please make sure to run this at last.
